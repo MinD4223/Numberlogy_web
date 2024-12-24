@@ -1,0 +1,123 @@
+.home {
+  background-image: url("../../assets/mt2267bg1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.content {
+  font-size: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.button {
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  color: #8b6fb1;
+  border: 3px solid #8b6fb1;
+  padding: 9px 19px;
+  border-radius: 20px;
+}
+/* End home */
+
+.search-form {
+  background-color: #1b1247;
+}
+.search {
+  height: 70vh;
+  margin: 0px 100px;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-information {
+  background: rgba(69, 48, 129, 0.5);
+  height: 100%;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.form-title {
+  color: #ffffff;
+  font-family: "Inter", serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.form-row {
+  margin: 0 20px !important;
+}
+
+.form-label {
+  color: #ffffff;
+  font-family: "Inter", serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #c8666c;
+  font-weight: bold;
+}
+
+.information {
+  background-image: url("../../assets/mt-2267-bg2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.information-contact{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 0;
+    align-items: center;
+    height: 80vh;
+}
+
+.contact{
+    width: 50%;
+    height: 100%;
+    background: rgba(69, 48, 129, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-content{
+    color: #ffffff;
+  font-family: "Inter", serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}

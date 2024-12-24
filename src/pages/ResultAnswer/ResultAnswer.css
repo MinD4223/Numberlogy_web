@@ -1,0 +1,241 @@
+.result {
+  background-image: url("../../assets/mt-2267-bg3.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  font-family: "Inter", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .result-number{
+    background-image: url("../../assets/mt-2267-img1.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 280px;
+    font-weight: bold;
+    
+    color: #C8666C;
+    text-shadow: 
+        0 0 5px #C8666C,  
+        0 0 10px #C8666C, 
+        0 0 20px #C8666C, 
+        0 0 25px #C8666C; 
+} */
+
+.result-number {
+  position: relative;
+  z-index: 1;
+  font-size: 270px;
+  font-weight: bold;
+  color: #c8666c;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 5px #c8666c, 0 0 10px #c8666c, 0 0 20px #c8666c,
+    0 0 30px #c8666c;
+  border: 3px solid #8b6fb1;
+  border-radius: 50%;
+}
+
+.result-number::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/mt-2267-img1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(1px);  */
+  z-index: -1;
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.result-button__more {
+  border: 3px solid #8b6fb1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 10;
+  position: absolute;
+  top: 87vh;
+  font-weight: bold;
+  background-color: #8b6fb1;
+}
+
+.result-detail__title {
+  background: #1b225a;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Inter", serif;
+  color: #ffffff;
+}
+
+.result-detail__content {
+  background-image: url("../../assets/mt-2267-bg2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.result-detail__content-table {
+  width: 85%;
+  height: 100%;
+  background: rgba(69, 48, 129, 0.5);
+  margin: 0 100px;
+  border-radius: 20px;
+}
+
+.result-detail__table {
+  color: #ffffff;
+  font-family: "Inter", serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 20px 80px;
+}
+
+.table-custom {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-custom td {
+  border: 1px solid #ffffff;
+  padding: 15px 90px;
+  text-align: center;
+  width: 33%;
+}
+
+.detail-button {
+  width: 100%;
+  height: 30px;
+  background-color: #c8666c;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.result-detail__table2 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Inter", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.table-custom2 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-custom2 td {
+  border: 1px solid #ffffff;
+  padding: 15px 50px;
+  text-align: center;
+  width: 20%;
+}
+
+.detail-button2 {
+  width: 100%;
+  height: 30px;
+  background-color: #c8666c;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.ant-modal .ant-modal-content {
+  padding: 0;
+  background: #24124E;
+  color: #ffffff;
+  font-family: "Inter", serif;
+  font-weight: bold;
+}
+
+.ant-modal .ant-modal-title {
+  background: #12228d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 40px;
+  display: flex !important;
+  align-items: center !important;
+  color: #ffffff;
+  padding: 4px;
+}
+
+.ant-modal .ant-modal-close {
+  top: 4px;
+  color: #ffffff !important;
+}
+
+.ant-modal .ant-modal-footer{
+    display: none;
+}
+
+.modal-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c8666c;
+    font-size: 90px;
+}
+
+.modal-content{
+    padding: 10px 20px;
+}
+
+.modal-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button-ok{
+    background: #c8666c;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 3%;
+    cursor: pointer;
+}

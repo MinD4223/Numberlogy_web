@@ -1,0 +1,19 @@
+.layout-default {
+  position: relative;
+  overflow: hidden;
+}
+
+.layout {
+  position: absolute;
+  top: 0;
+}
+
+.layer-1 {
+  color: #FFFFFF;
+  width: 100%;
+  z-index: 1;
+}
+.layer-2 {
+  opacity: 0.7;
+  z-index: 2;
+}

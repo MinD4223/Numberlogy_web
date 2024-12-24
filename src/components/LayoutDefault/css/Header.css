@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.component-header{
+    display: flex;
+    margin: 40px 100px;
+    font-family: "Inter", serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.compoment-header__title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.compoment-header__menu{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+
+.compoment-header__menu-search, .compoment-header__menu-contact{
+    margin-right: 100px;
+}
+
+.compoment-header__menu-login{
+    border: 3px solid #8B6FB1;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
