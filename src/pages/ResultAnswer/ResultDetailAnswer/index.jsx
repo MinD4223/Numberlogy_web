@@ -18,7 +18,7 @@ function ResultDetailAnswer() {
 
   return (
     <>
-      <div onClick={showModal}>Xem thông tin</div>
+      <div onClick={showModal}>Xem</div>
       <Modal
         title="THÔNG TIN CHI TIẾT: NGÀY SINH"
         open={isModalOpen}

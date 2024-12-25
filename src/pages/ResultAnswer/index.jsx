@@ -8,11 +8,11 @@ function ResultAnswer() {
         <div className="result-button__more">Xem chi tiết</div>
       </div>
       <div className="result-detail__title">
-        <img src="/src/assets/image3.png" />
-        <img src="/src/assets/image4.png" />
+        <img className="image_info" src="/src/assets/image3.png" />
+        <img className="image_info" src="/src/assets/image4.png" />
         <p>THÔNG TIN CHI TIẾT</p>
-        <img src="/src/assets/image5.png" />
-        <img src="/src/assets/image6.png" />
+        <img className="image_info" src="/src/assets/image5.png" />
+        <img className="image_info" src="/src/assets/image6.png" />
       </div>
       <div className="result-detail__content">
         <div className="result-detail__content-table">
@@ -33,56 +33,56 @@ function ResultAnswer() {
                   <td>NGÀY SINH</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>SỨ MỆNH</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>LINH HỒN</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>TRUNG NIÊN</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>THÁI ĐỘ</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>NHÂN CÁCH</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>NĂM CÁ NHÂN</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
                 <tr>
                   <td>ĐƯỜNG ĐỜI</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button">Xem thông tin</div>
+                    <div className="detail-button">Xem</div>
                   </td>
                 </tr>
               </tbody>

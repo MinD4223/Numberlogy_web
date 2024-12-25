@@ -12,7 +12,7 @@ function Home() {
       </div>
       <div className="search-form">
         <div className="search">
-          <img src="/src/assets/image2.png" />
+          <img className="image_left" src="/src/assets/image2.png" />
           <div className="form-information">
             <div className="form-title">TRA CỨU THẦN SỐ HỌC</div>
             <Form>
@@ -76,16 +76,12 @@ function Home() {
           <div className="contact">
             <div className="contact-content">
               Lá số chuyên sâu dự báo chính xác:
-              <ul>
-                <li>Thành công - Thử thách trong cuộc đời bạn</li>
-                <li>Điểm mạnh - điểm yếu, định hướng nghề nghiệp</li>
-                <li>Tình duyên - Hôn nhân. Giải pháp phát triển.</li>
-              </ul>
+              
             </div>
             <hr />
             <div className="contact-content">Liên hệ</div>
           </div>
-          <img src="/src/assets/mt-2267-img1.png" />
+          <img className="image_right" src="/src/assets/mt-2267-img1.png" />
         </div>
       </div>
     </>
