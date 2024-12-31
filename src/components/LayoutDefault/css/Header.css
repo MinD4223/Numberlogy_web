@@ -72,6 +72,10 @@ li:first-child{
   text-align: center;
 }
 
+#compoment-header__menu-login:hover {
+  background-color: #8b6fb1;
+}
+
 @media(max-width: 900px){
   .hideOnMobile{
     display: none;

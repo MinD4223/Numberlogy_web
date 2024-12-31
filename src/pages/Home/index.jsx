@@ -8,7 +8,20 @@ function Home() {
       <div className="home">
         <div className="home-content title">THẦN SỐ HỌC</div>
         <div className="home-content content">TÌM RA CON SỐ CỦA BẠN</div>
-        <div className="home-content button">TRA CỨU</div>
+        <div
+          className="home-content button"
+          onClick={() => {
+            const targetElement = document.querySelector(".search-form");
+            if (targetElement) {
+              targetElement.scrollIntoView({
+                behavior: "smooth",
+                block: "center",
+              });
+            }
+          }}
+        >
+          TRA CỨU
+        </div>
       </div>
       <div className="search-form">
         <div className="search">
@@ -76,7 +89,6 @@ function Home() {
           <div className="contact">
             <div className="contact-content">
               Lá số chuyên sâu dự báo chính xác:
-              
             </div>
             <hr />
             <div className="contact-content">Liên hệ</div>

@@ -1,3 +1,4 @@
+import Chat from "../../components/Chat";
 import "./ResultAnswer.css";
 import ResultDetailAnswer from "./ResultDetailAnswer";
 function ResultAnswer() {
@@ -26,7 +27,9 @@ function ResultAnswer() {
                   <td>ĐƯỜNG ĐỜI</td>
                   <td>3</td>
                   <td>
-                    <div className="detail-button"><ResultDetailAnswer/></div>
+                    <div className="detail-button">
+                      <ResultDetailAnswer />
+                    </div>
                   </td>
                 </tr>
                 <tr>
@@ -140,6 +143,7 @@ function ResultAnswer() {
           </div>
         </div>
       </div>
+      <Chat/>
     </>
   );
 }
