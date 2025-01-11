@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <div className="home">
-        <div className="home-content title">THẦN SỐ HỌC</div>
+        <div className="home-content main-title">THẦN SỐ HỌC</div>
         <div className="home-content content">TÌM RA CON SỐ CỦA BẠN</div>
         <div
           className="home-content button"

@@ -34,7 +34,7 @@ a{
 
 li:first-child{
   margin-right: auto;
-  margin-bottom: 30px !important;
+  /* margin-bottom: 30px !important; */
 }
 
 .sidebar{
