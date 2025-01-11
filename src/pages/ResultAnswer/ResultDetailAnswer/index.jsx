@@ -27,20 +27,20 @@ function ResultDetailAnswer() {
       >
         <div className="modal-number">3</div>
         <div className="modal-content">
-          <ul>
-            <li>
-              Bạn là người thân thiện và tràn đầy năng lượng, và khả năng sáng
+          <div>
+            <div>
+              -Bạn là người thân thiện và tràn đầy năng lượng, và khả năng sáng
               tạo của bạn không có giới hạn.
-            </li>
-            <li>
-              Bạn là người rất thân thiện, hòa đồng, vui vẻ và là người thích
+            </div>
+            <div>
+              -Bạn là người rất thân thiện, hòa đồng, vui vẻ và là người thích
               cuộc sống của những bữa tiệc.
-            </li>
-            <li>
-              Bài học của bạn là học cách quản lý cảm xúc và ngừng tìm kiếm sự
+            </div>
+            <div>
+              -Bài học của bạn là học cách quản lý cảm xúc và ngừng tìm kiếm sự
               thỏa mãn tức thì.
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
         <div className="modal-button"> <div className="button-ok" onClick={handleOk}>OK</div></div>
       </Modal>

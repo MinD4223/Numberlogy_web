@@ -1,8 +1,10 @@
 import { Button, Col, Form, Input, Row, Select } from "antd";
 import "./Home.css";
 import { SearchOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="home">
@@ -74,6 +76,9 @@ function Home() {
                       icon={<SearchOutlined />}
                       type="primary"
                       htmlType="submit"
+                      onClick={() => {
+                        navigate('/result');
+                      }}
                     >
                       TRA CỨU
                     </Button>
