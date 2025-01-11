@@ -25,7 +25,7 @@ function Home() {
       </div>
       <div className="search-form">
         <div className="search">
-          <img className="image_left" src="/src/assets/image2.png" />
+          <img className="image_left" src="/assets/image2.png" />
           <div className="form-information">
             <div className="form-title">TRA CỨU THẦN SỐ HỌC</div>
             <Form>
@@ -93,7 +93,7 @@ function Home() {
             <hr />
             <div className="contact-content">Liên hệ</div>
           </div>
-          <img className="image_right" src="/src/assets/mt-2267-img1.png" />
+          <img className="image_right" src="/assets/mt-2267-img1.png" />
         </div>
       </div>
     </>

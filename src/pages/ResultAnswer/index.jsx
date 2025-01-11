@@ -9,11 +9,11 @@ function ResultAnswer() {
         <div className="result-button__more">Xem chi tiết</div>
       </div>
       <div className="result-detail__title">
-        <img className="image_info" src="/src/assets/image3.png" />
-        <img className="image_info" src="/src/assets/image4.png" />
+        <img className="image_info" src="/assets/image3.png" />
+        <img className="image_info" src="/assets/image4.png" />
         <p>THÔNG TIN CHI TIẾT</p>
-        <img className="image_info" src="/src/assets/image5.png" />
-        <img className="image_info" src="/src/assets/image6.png" />
+        <img className="image_info" src="/assets/image5.png" />
+        <img className="image_info" src="/assets/image6.png" />
       </div>
       <div className="result-detail__content">
         <div className="result-detail__content-table">
