@@ -1,6 +1,7 @@
 import Main from "./Main";
 import "../LayoutDefault/LayoutDefault.css";
 import Header from "./Header";
+import Footer from "./Footer";
 function LayoutDefault() {
   return (
     <>
@@ -10,7 +11,9 @@ function LayoutDefault() {
         </header>
         <Main className="layout layer-2" />
       </div>
-      <footer>Hehe</footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

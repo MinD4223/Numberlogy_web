@@ -35,38 +35,38 @@ function Home() {
                 <Col className="form-col" span={24}>
                   <p className="form-label">Nhập họ tên khai sinh:</p>
                   <Form.Item className="form-field" name="name">
-                    <Input />
+                    <Input placeholder="Nhập họ tên khai sinh của bạn" />
                   </Form.Item>
                 </Col>
 
                 <Col className="form-col" span={14}>
                   <p className="form-label">Tên thường dùng:</p>
-                  <Form.Item className="form-field" name="name">
-                    <Input />
+                  <Form.Item className="form-field" name="name" >
+                    <Input placeholder="Nhập tên thường dùng của bạn" />
                   </Form.Item>
                 </Col>
                 <Col className="form-col" span={10}>
                   <p className="form-label">Giới tính:</p>
                   <Form.Item name="city" className="form-field">
-                    <Select allowClear />
+                    <Select allowClear placeholder="Chọn giới tính" />
                   </Form.Item>
                 </Col>
                 <Col className="form-col" span={8}>
                   <p className="form-label">Ngày sinh:</p>
                   <Form.Item name="city" className="form-field">
-                    <Select allowClear />
+                    <Select allowClear placeholder="Chọn ngày sinh" />
                   </Form.Item>
                 </Col>
                 <Col className="form-col" span={8}>
                   <p className="form-label">Tháng sinh:</p>
                   <Form.Item name="city" className="form-field">
-                    <Select allowClear />
+                    <Select allowClear placeholder="Chọn tháng sinh" />
                   </Form.Item>
                 </Col>
                 <Col className="form-col" span={8}>
                   <p className="form-label">Năm sinh:</p>
                   <Form.Item name="city" className="form-field">
-                    <Select allowClear />
+                    <Select allowClear placeholder="Chọn năm sinh" />
                   </Form.Item>
                 </Col>
                 <Col className="form-col" span={24}>

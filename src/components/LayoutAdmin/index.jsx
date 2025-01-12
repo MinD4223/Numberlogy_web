@@ -23,9 +23,9 @@ function LayoutAdmin() {
             }
           >
             {collapse ? (
-              <img className="logo_true" src="../../assets/logo.png" />
+              <img className="logo_true" src="/assets/logo.png" />
             ) : (
-              <img className="logo" src="/src/assets/logo.png" />
+              <img className="logo" src="/assets/logo.png" />
             )}
           </div>
           <div className="header-admin__nav">
